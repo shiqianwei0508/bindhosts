@@ -34,12 +34,12 @@
 
 ## 链接
 
-- 点击 [此处](https://github.com/bindhosts/bindhosts/releases) 下载 bindhosts
+- 点击 [此处](https://github.com/shiqianwei0508/bindhosts/releases) 下载 bindhosts
 - 点击 [此处](Documentation/sources.md) 查看更多 hosts 规则源
 - 点击 [此处](Documentation/localize.md) 了解 bindhosts 的本地化流程
 
 ## 帮助与支持
 
-如果遇到问题请在 [这里](https://github.com/bindhosts/bindhosts/issues) 提交你的 issues
+如果遇到问题请在 [这里](https://github.com/shiqianwei0508/bindhosts/issues) 提交你的 issues
 
-我们始终欢迎你们来提交 [请求](https://github.com/bindhosts/bindhosts/pulls)
+我们始终欢迎你们来提交 [请求](https://github.com/shiqianwei0508/bindhosts/pulls)

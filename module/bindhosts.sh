@@ -614,7 +614,7 @@ manager_install_zip() {
 }
 
 update_locales() {
-	link1="https://raw.githubusercontent.com/bindhosts/bindhosts/bot/locales.zip"
+	link1="https://raw.githubusercontent.com/shiqianwei0508/bindhosts/bot/locales.zip"
 	link2="https://gh.sevencdn.com/$link1"
 	error=0
 	echo "[+] downloading: $link1"
@@ -633,7 +633,7 @@ install_latest_artifact() {
 	fi
 
 	# via nightly.link
-	latest_zip_url=$(download "https://nightly.link/bindhosts/bindhosts/workflows/release/master?preview" | sed 's/>/\n/g; s/</\n/g' | busybox grep -E "^https.*\.zip$" | head -n1)
+	latest_zip_url=$(download "https://nightly.link/shiqianwei0508/bindhosts/workflows/release/master?preview" | sed 's/>/\n/g; s/</\n/g' | busybox grep -E "^https.*\.zip$" | head -n1)
 	latest_zip_local="$rwdir/bindhosts_latest.zip"
 
 	# download

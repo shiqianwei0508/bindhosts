@@ -8,9 +8,6 @@
 # 0.0.0.0 host.to.block
 #
 # alternatively you can also add links to custom rulesets here
-# mainly used to circumvent dns based filtering by upstream (ISP, telecom, network provider)
 # they wont be filtered out
 #
-https://adaway.org/hosts.txt
-https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt
-disabled|https://gitlab.com/andryou/block/raw/master/chibi
+https://gitee.com/fish_cat/Adhosts-block/raw/master/hosts
