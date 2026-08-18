@@ -225,7 +225,7 @@ function localesUpdate() {
     isDownloading = true;
 
     showPrompt(getString('more_support_checking_update'), true, 10000);
-    const link = "https://raw.githubusercontent.com/bindhosts/bindhosts/bot/locales_version"
+    const link = "https://raw.githubusercontent.com/shiqianwei0508/bindhosts/master/locales_version"
     fetch(link)
         .then(response => {
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
@@ -567,7 +567,7 @@ function controlPanelEventlistener(event) {
         "update-toggle-container": toggleModuleUpdate,
         "action-redirect-container": toggleActionRedirectWebui,
         "cron-toggle-container": toggleCron,
-        "github-issues": () => linkRedirect('https://github.com/bindhosts/bindhosts/issues/new'),
+        "github-issues": () => linkRedirect('https://github.com/shiqianwei0508/bindhosts/issues/new'),
         "canary-update": canaryUpdate,
         "locales-update": localesUpdate,
         "export": exportConfig,
