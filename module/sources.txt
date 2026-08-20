@@ -10,4 +10,4 @@
 # alternatively you can also add links to custom rulesets here
 # they wont be filtered out
 #
-https://gitee.com/fish_cat/Adhosts-block/raw/master/hosts
+https://gitlab.com/rainmor/Adhosts-block/-/raw/hosts-latest/hosts
