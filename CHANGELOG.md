@@ -4,6 +4,10 @@ Systemless hosts for APatch, KernelSU and Magisk
 ---
 
 # Changelog
+### 2.1.5
+- sources: 更新广告拦截规则源为 gitlab rainmor/Adhosts-block
+- webui/more: 修复 GitHub issue 与 locales 外链指向自有仓库
+
 ### 2.1.4
 - scripts/service: fix module.prop edit
 - scripts/bindhosts: handle bad curl env

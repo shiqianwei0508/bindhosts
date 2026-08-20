@@ -40,9 +40,10 @@ bindhosts-app.sh / customize.sh 安装提示 / uninstall.sh 卸载 app / webui m
 module.prop 的 `author` 保持原作者（xx, KOWX712），不要改成自己；description 可加 "(josepth fork)" 说明。
 
 ### 铁律 7：hosts 订阅地址
-module/sources.txt 完全替换为自有订阅：https://gitee.com/fish_cat/Adhosts-block/raw/master/hosts
-（原作者的默认源已删除，不留。）
+module/sources.txt 完全替换为自有订阅：https://gitlab.com/rainmor/Adhosts-block/-/raw/hosts-latest/hosts
+（原作者的默认源已删除，不留。2026-08-20 由 gitee fish_cat 源改为 gitlab rainmor 源。）
 
 ### 已踩坑记录
 - 误把全路径改成 bindhostsjosepth（想"加 josepth 区分"）→ 错，会破坏覆盖原包。已 git checkout 还原。
 - update.json/repo.json/module.prop 链接写成 main 分支 → 错，仓库是 master。已改回。
+- Windows 下 PowerShell 里直接 `bash` 会走到 WSL（报 WSL_E_WSL_OPTIONAL_COMPONENT_REQUIRED）。打包要这样跑：`& "C:\Program Files\Git\bin\bash.exe" build-module.sh`。脚本用 python3(zipfile) 打包，不依赖 zip 命令。
